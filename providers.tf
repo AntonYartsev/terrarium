@@ -3,5 +3,5 @@ provider "twc" {
 }
 
 provider "docker" {
-  # Здесь прописываем настройки docker (если нужно)
+  host = var.docker_host
 }
