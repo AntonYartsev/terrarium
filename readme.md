@@ -10,12 +10,8 @@ nano terraform.tfvars
 twc_instance_name       = "agent-000"
 twc_instance_os_name    = "ubuntu"
 twc_instance_os_version = "24.04"
-twc_instance_preset_id  = 4795
-twc_token               = ""
-# docker_container_name = "agent-000"
-# docker_image          = "ubuntu:latest"
-# docker_image          = ""
-# docker_host           = "tcp://192.168.88.237:2375"
+twc_instance_preset_id  = 4795 # 1x3.3GHz, 1GB RAM, 15 GB NVMe, RU location
+twc_token               = "" # you timeweb token here
 ```
 ### Init
 ```bash
