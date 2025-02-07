@@ -14,13 +14,8 @@ module "twc_instance" {
   source                  = "./modules/twc_instance"
   twc_token               = var.twc_token
   twc_instance_name       = var.twc_instance_name
-  twc_instance_region     = var.twc_instance_region
-  twc_instance_disc_type  = var.twc_instance_disc_type
   twc_instance_os_name    = var.twc_instance_os_name
   twc_instance_os_version = var.twc_instance_os_version
-  twc_instance_disk       = var.twc_instance_disk
-  twc_instance_cpu        = var.twc_instance_cpu
-  twc_instance_ram        = var.twc_instance_ram
-
+  twc_instance_preset_id  = var.twc_instance_preset_id
   count = local.environment == "prod" ? 1 : 0
 }

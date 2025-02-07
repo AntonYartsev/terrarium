@@ -1,6 +1,25 @@
 # This file is maintained automatically by "terraform init".
 # Manual edits may be lost in future updates.
 
+provider "registry.terraform.io/hashicorp/local" {
+  version = "2.5.2"
+  hashes = [
+    "h1:IyFbOIO6mhikFNL/2h1iZJ6kyN3U00jgkpCLUCThAfE=",
+    "zh:136299545178ce281c56f36965bf91c35407c11897f7082b3b983d86cb79b511",
+    "zh:3b4486858aa9cb8163378722b642c57c529b6c64bfbfc9461d940a84cd66ebea",
+    "zh:4855ee628ead847741aa4f4fc9bed50cfdbf197f2912775dd9fe7bc43fa077c0",
+    "zh:4b8cd2583d1edcac4011caafe8afb7a95e8110a607a1d5fb87d921178074a69b",
+    "zh:52084ddaff8c8cd3f9e7bcb7ce4dc1eab00602912c96da43c29b4762dc376038",
+    "zh:71562d330d3f92d79b2952ffdda0dad167e952e46200c767dd30c6af8d7c0ed3",
+    "zh:78d5eefdd9e494defcb3c68d282b8f96630502cac21d1ea161f53cfe9bb483b3",
+    "zh:805f81ade06ff68fa8b908d31892eaed5c180ae031c77ad35f82cb7a74b97cf4",
+    "zh:8b6b3ebeaaa8e38dd04e56996abe80db9be6f4c1df75ac3cccc77642899bd464",
+    "zh:ad07750576b99248037b897de71113cc19b1a8d0bc235eb99173cc83d0de3b1b",
+    "zh:b9f1c3bfadb74068f5c205292badb0661e17ac05eb23bfe8bd809691e4583d0e",
+    "zh:cc4cbcd67414fefb111c1bf7ab0bc4beb8c0b553d01719ad17de9a047adff4d1",
+  ]
+}
+
 provider "registry.terraform.io/kreuzwerker/docker" {
   version     = "2.25.0"
   constraints = "~> 2.15"
@@ -24,15 +43,15 @@ provider "registry.terraform.io/kreuzwerker/docker" {
 }
 
 provider "tf.timeweb.cloud/timeweb-cloud/timeweb-cloud" {
-  version     = "1.3.15"
+  version     = "1.3.17"
   constraints = ">= 1.3.15"
   hashes = [
-    "h1:XepoZ17dMXWmiPrOm9xZvwzs+8NY3/sKQYN5NP52qzA=",
-    "zh:44e30e2ab0e46d53f39dac167b7dda4e63bda4c407a0ac9c0c39396304340810",
-    "zh:590a0144c8073727604d1d5033cab4999f2969cf0511c1f1f9920faf1a065c18",
-    "zh:7a4882536f820acafb8ebaab04c6729a662741c5188a228aeb82117564939f05",
-    "zh:9a0b258107770e6bf71209a326c42b677f10d27cfa3136a062bd3bdd59920e15",
-    "zh:a018403334c007386aed0c7f9363e5c6258a59173773e418542006e6c1787053",
-    "zh:be93bf49f9fcd46c85dd3e35b07490e654c4411a20e276e467a7fa893e71b531",
+    "h1:ziaRaltQBtKBlSEoFW46eWZjA4p34I2KMrOXpCQQsdA=",
+    "zh:329d81dff4464407c5d99bd6c7ba91977c36ef648aa54aba4ff1ec6362a65121",
+    "zh:826b71b4b1380b316c205480571d132653059c626a97145a0b281a4be63a0d41",
+    "zh:84de08f5e66c14ee31a9913844e5f5a7a92b7faeccad678fc7541ed261a774c0",
+    "zh:b68dbd4883e2300e1d17fe95e3ca62c479f66ad0dd4a6816e91e1bba7e6c51d5",
+    "zh:e091a426e5b5fe31c84bd53eaee2d915595415108abbd3ad2187daf30edd2d45",
+    "zh:fa084bf37ee473245ac3e42c0eb37a17dcaa40be85b697ebcc4772c61adc91cb",
   ]
 }
