@@ -21,6 +21,6 @@ terraform init
 
 ### Deploy
 ```bash
-terraform plan apply
+terraform apply
 ```
 
