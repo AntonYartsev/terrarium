@@ -5,9 +5,5 @@ terraform {
       source  = "tf.timeweb.cloud/timeweb-cloud/timeweb-cloud"
       version = ">= 1.3.15"
     }
-    docker = {
-      source  = "kreuzwerker/docker"
-      version = "~> 2.15"
-    }
   }
 }

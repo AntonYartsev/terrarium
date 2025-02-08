@@ -18,15 +18,3 @@ variable "twc_token" {
   type      = string
   sensitive = true
 }
-
-variable "docker_host" {
-  type = string
-}
-
-variable "docker_container_name" {
-  type = string
-}
-
-variable "docker_image" {
-  type = string
-}
